@@ -2,9 +2,16 @@
 ! hk01.com !
 !==========!
 
+! Article Toolbar
+www.hk01.com##.app-wrapper.page-article .md\:h-articleSecondaryNavBarTablet > :first-child > :nth-child(5) > :first-child > :nth-child(n+1):nth-child(-n+3)
+
+! Article Toolbar (Mobile)
+www.hk01.com##.app-wrapper.page-article .pt-navBarMobile > .fixed.bottom-0 > :first-child
+www.hk01.com##.app-wrapper.page-article .pt-navBarMobile > .fixed.bottom-0 > :nth-child(2) > :first-child > :first-child > :nth-child(n+1):nth-child(-n+3)
+
 ! Reaction Section
-www.hk01.com##.view-tracker + .custom-pswp__prevent-pswp-tap
-www.hk01.com###social-reaction__article-bottom
+www.hk01.com##.app-wrapper.page-article .view-tracker + .custom-pswp__prevent-pswp-tap
+www.hk01.com##.app-wrapper.page-article #social-reaction__article-bottom
 
 ! Comment Section
-www.hk01.com###comment-plugin-page-level
+www.hk01.com##.app-wrapper.page-article #comment-plugin-page-level
