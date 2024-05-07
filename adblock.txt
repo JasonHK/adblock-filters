@@ -1,0 +1,167 @@
+! JasonHK’s Personal Adblock Filter
+
+
+! Whitelist
+
+masiro.me#@#.like-share
+masiro.me#@#.share-outer
+masiro.me#@#.btn-share
+
+
+! Advertisements
+
+books.com.tw##.type01_s001
+books.com.tw##.type02_s007
+
+ching-win.com.tw##.top_adbox
+
+doublesama.com##.slider-container:has-text(Affiliate)
+doublesama.com##[id^=custom_html]:has-text(HobbyLink Japan)
+doublesama.com##.widget-desktop:has-text(Affiliate)
+
+eprice.com.hk##.parallax-ads-container
+
+gamer.com.tw##.b-list__row:has(.b-list_ad)
+
+hkej.com##.bt_banner
+
+mcbbs.net###um + div
+
+memes.tw##.nice-box
+
+moegirl.org.cn###MOE_DRAW_LOTS_ROOT
+moegirl.org.cn##.bottomAds
+
+parttime.hk###mainContent_topAd
+parttime.hk###mainContent_jobDetailsRightDesktop
+
+pixnet.net###ad-full-page
+pixnet.net##.pixnet-ad
+
+std.stheadline.com#?##carouselMarketing
+std.stheadline.com#?##carouselFullPage
+
+tongli.com.tw#@#.adBox
+tongli.com.tw#?#.adBox:style(visibility: hidden;)
+
+tp-link.com##.widgets-top-banner
+
+
+! Annoyances: Cookies Notices
+
+am730.com.hk###gdprbox
+
+kadokado.com.tw###__next > div:has-text(本網站使用cookie優化您的瀏覽體驗)
+
+openrice.com##.cookies-agreement
+
+htm.sf-express.com##.cookieCon
+
+nijigen.wiki##.mw-cookiewarning-container
+
+std.stheadline.com###cookieConsentContainer
+
+spp.com.tw##.cookie_wrap
+
+tvb.com###cookiePolicyDrawer
+
+
+! Annoyances: Popups
+
+gethomebank.org###abpopup
+
+tieba.baidu.com###tiebaCustomPassLogin
+
+pixnet.net###idle-pop
+
+
+! Annoyances: Mobile App Banners
+
+tieba.baidu.com##.more-btn-desc
+tieba.baidu.com##.nav-bar-bottom
+
+m.bilibili.com##.openapp-dialog
+m.bilibili.com##.m-nav-openapp
+m.bilibili.com##.m-video2-awaken-btn
+m.bilibili.com##.m-float-openapp
+m.bilibili.com##.mplayer-widescreen-callapp
+m.bilibili.com##.m-space-float-openapp
+m.bilibili.com##.dynamic-float-openapp
+
+books.com.tw###app_banner
+books.com.tw##.page-content:remove-class(with-app-banner)
+books.com.tw#$##header_v2 { top: 0 !important; }
+
+fortress.com.hk##.smartbanner
+
+mall.e-muse.com.tw##.layout-header > div:has-text(立刻使用官方APP)
+
+myanimelist.net##body:remove-class(smartbanner-shown)
+
+topick.hket.com##.app-redirect-panel
+topick.hket.com##html:remove-class(no-scroll)
+topick.hket.com###app-floating-button
+
+i-cable.com##.smartbanner
+
+m.mingpao.com##.mingpao_app > .ios
+m.mingpao.com##.mingpao_app > .androd
+
+moegirl.org.cn##.mobile-only
+moegirl.org.cn###moe-open-in-app
+
+news.now.com##.appBanner
+
+reddit.com##.TopNav__promoButton
+
+m.sfacg.com###bottomNav
+mm.sfacg.com###bottomNav
+
+hk.yahoo.com##.smart-app-banner
+hk.news.yahoo.com###app-promo
+hk.news.yahoo.com###module-appPromoBanner
+
+viu.com###web_to_app_container
+viu.com###mb_web_to_app_button
+
+
+! Annoyances: Other Annoyances
+
+dcfever.com##.advertisement
+
+play.dlsite.com#?#.app:style(user-select: revert !important;)
+play.dlsite.com#?#+js(set, document.onselectstart, noopFunc)
+
+dranime.net#?#+js(set, document.body.oncopy, noopFunc)
+dotmu.net#?#+js(set, document.body.oncopy, noopFunc)
+deainx.me#?#+js(set, document.body.oncopy, noopFunc)
+
+blog.fc2.com#?#body:style(user-select: revert !important;)
+blog.fc2.com##body:remove-attr(/on(?:contextmenu|copy|dragstart|selectstart)/)
+
+esjzone.cc#?#.forum-content:style(user-select: revert !important;)
+
+hk01.com#?#+js(aeld, /^(?:copy|cut)$/)
+
+kocpc.com.tw###text-16
+
+ltn.com.tw##.fb-like-box
+
+mnya.tw###custom_html-2
+mnya.tw###custom_html-3
+
+moegirl.org.cn###moe-global-background
+
+msn.com##body:remove-class(sp)
+
+pixnet.net##body:style(-moz-user-select: revert !important;)
+pixnet.net##body:remove-attr(/on(?:contextmenu|dragstart|selectstart)/)
+
+sf-express.com##.geetest_captcha:style(touch-action: revert !important)
+
+weekendhk.com#?#+js(set, document.oncopy, noopFunc)
+
+
+! Site Breakage
+
+ulifestyle.com.hk#$#body:not(.scrollable) { overflow: revert !important }
