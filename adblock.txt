@@ -159,6 +159,10 @@ pixnet.net##body:remove-attr(/on(?:contextmenu|dragstart|selectstart)/)
 
 sf-express.com##.geetest_captcha:style(touch-action: revert !important)
 
+web-ace.jp##.spacer
+web-ace.jp##[id^=img]:remove-attr(oncontextmenu)
+web-ace.jp##+js(aeld, click, preventDefault)
+
 weekendhk.com#?#+js(set, document.oncopy, noopFunc)
 
 
