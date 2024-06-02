@@ -70,6 +70,9 @@ tvb.com###cookiePolicyDrawer
 
 gethomebank.org###abpopup
 
+blog.moneysmart.hk##main:remove-class(article--blur)
+blog.moneysmart.hk##.login-wall
+
 tieba.baidu.com###tiebaCustomPassLogin
 
 pixnet.net###idle-pop
