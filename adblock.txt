@@ -171,4 +171,6 @@ weekendhk.com#?#+js(set, document.oncopy, noopFunc)
 
 ! Site Breakage
 
+dic.pixiv.net##+js(set, twttr, undefined)
+
 ulifestyle.com.hk#$#body:not(.scrollable) { overflow: revert !important }
