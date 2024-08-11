@@ -130,6 +130,8 @@ viu.com###mb_web_to_app_button
 
 ! Annoyances: Other Annoyances
 
+||www.aniplex.co.jp/js/aniplex.imgdownload.min.js$script
+
 dcfever.com##.advertisement
 
 play.dlsite.com#?#.app:style(user-select: revert !important;)
