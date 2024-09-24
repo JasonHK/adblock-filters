@@ -117,8 +117,7 @@ news.now.com##.appBanner
 
 reddit.com##.TopNav__promoButton
 
-m.sfacg.com###bottomNav
-mm.sfacg.com###bottomNav
+m.sfacg.com,mm.sfacg.com###bottomNav
 
 hk.yahoo.com##.smart-app-banner
 hk.news.yahoo.com###app-promo
@@ -137,9 +136,10 @@ dcfever.com##.advertisement
 play.dlsite.com#?#.app:style(user-select: revert !important;)
 play.dlsite.com#?#+js(set, document.onselectstart, noopFunc)
 
-dranime.net#?#+js(set, document.body.oncopy, noopFunc)
-dotmu.net#?#+js(set, document.body.oncopy, noopFunc)
-deainx.me#?#+js(set, document.body.oncopy, noopFunc)
+dranime.net,dotmu.net,deainx.me#?#+js(set, document.body.oncopy, noopFunc)
+
+esjzone.cc,esjzone.me##.description:remove-attr(style)
+esjzone.cc,esjzone.me#?#+js(aeld, copy)
 
 blog.fc2.com#?#body:style(user-select: revert !important;)
 blog.fc2.com##body:remove-attr(/on(?:contextmenu|copy|dragstart|selectstart)/)
