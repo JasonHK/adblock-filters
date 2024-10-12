@@ -173,6 +173,9 @@ weekendhk.com#?#+js(set, document.oncopy, noopFunc)
 
 ! Site Breakage
 
+bet.hkjc.com##+js(set, WAGdpr, {})
+bet.hkjc.com##+js(set, WAGdpr.isEU, falseFunc)
+
 dic.pixiv.net##+js(set, twttr, undefined)
 
 ulifestyle.com.hk#$#body:not(.scrollable) { overflow: revert !important }
