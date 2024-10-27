@@ -10,6 +10,7 @@ masiro.me#@#.btn-share
 
 ! Advertisements
 
+books.com.tw##.header_pop
 books.com.tw##.type01_s001
 books.com.tw##.type02_s007
 
