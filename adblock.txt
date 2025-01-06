@@ -71,6 +71,9 @@ tvb.com###cookiePolicyDrawer
 
 gethomebank.org###abpopup
 
+kobo.com##.country-store-top-banner-wrap
+kobo.com##[data-testid=change-country-banner]
+
 blog.moneysmart.hk##main:remove-class(article--blur)
 blog.moneysmart.hk##.login-wall
 
