@@ -62,7 +62,7 @@ nijigen.wiki##.mw-cookiewarning-container
 
 std.stheadline.com###cookieConsentContainer
 
-spp.com.tw##.cookie_wrap
+spp.com.tw##.sc-jIXSKn
 spp.com.tw##.sc-jIXSKn
 
 tvb.com###cookiePolicyDrawer
