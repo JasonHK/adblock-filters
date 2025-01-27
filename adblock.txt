@@ -63,6 +63,7 @@ nijigen.wiki##.mw-cookiewarning-container
 std.stheadline.com###cookieConsentContainer
 
 spp.com.tw##.cookie_wrap
+spp.com.tw##.sc-jIXSKn
 
 tvb.com###cookiePolicyDrawer
 
@@ -122,6 +123,8 @@ news.now.com##.appBanner
 reddit.com##.TopNav__promoButton
 
 m.sfacg.com,mm.sfacg.com###bottomNav
+
+spp.com.tw##.sc-jJTKaY
 
 hk.yahoo.com##.smart-app-banner
 hk.news.yahoo.com###app-promo
