@@ -22,6 +22,8 @@ doublesama.com##.widget-desktop:has-text(Affiliate)
 
 eprice.com.hk##.parallax-ads-container
 
+fandom.com##.page__right-rail
+
 gamer.com.tw##.b-list__row:has(.b-list_ad)
 
 hkej.com##.bt_banner
@@ -69,6 +71,10 @@ tvb.com###cookiePolicyDrawer
 
 
 ! Annoyances: Popups
+
+fandom.com###global-explore-navigation
+fandom.com##html:style(--desktop-global-navigation-width: 66px !important)
+fandom.com##.wds-mobile-drawer
 
 gethomebank.org###abpopup
 
